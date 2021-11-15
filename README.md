@@ -17,3 +17,5 @@ The sys_info.py file needs to go into /usr/lib/python3/dist-packages/pitopcommon
 That should be all that is required outside of setting up the udev rules for the USB to the RoboRIO/RoboRIIO.
 
 I've probably forgotten something so let me know if you try it.
+
+YouTube Demo Video here: https://youtu.be/Dxmqwbp8v48
