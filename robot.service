@@ -1,0 +1,14 @@
+[Unit]
+Description=Pi-Top DriverStation Program
+
+[Service]
+Type=simple
+KillMode=process
+User=root
+Group=root
+ExecStart=/usr/bin/python3 /home/pi/pi-top-ds/pi-top-ds.py
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
