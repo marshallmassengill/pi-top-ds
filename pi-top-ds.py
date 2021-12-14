@@ -20,7 +20,7 @@ def read_addr() -> Optional[str]:
     else:
         return "172.22.11.2"
 
-#Try to connecy to the RoboRIO
+#Try to connect to the RoboRIO
 def try_conn(addr: Tuple[str, int]) -> bool:
     try:
         sock = socket.create_connection(addr, timeout=1)
